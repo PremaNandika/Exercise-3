@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript exercise</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+  </head>
+  <body>
+    <div class="container text-center mt-5">
+      <h1>Planet data</h1>
+    </div>
+    <div class="container mt-5">
+      <input type="text" class="form-control " id="search" placeholder="Search planet name here...." onkeyup="filterFunction()">
+    </div>
+    <table class="table table-md table-hover  table-bordered table-dark mt-5" id="datatable">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Rotation Period</th>
+      <th scope="col">Gravity</th>
+      <th scope="col">Terrain</th>
+      <th scope="col">Population</th>
+      <th scope="col">Climate</th>
+    </tr>
+  </thead>
+  <tbody id="datarow">
+
+  </tbody>
+</table>
+    <script src="js/data.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>
